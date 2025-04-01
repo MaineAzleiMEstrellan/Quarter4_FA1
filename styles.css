@@ -1,0 +1,48 @@
+
+*{
+
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+h1{
+    color:aquamarine;
+    text-align: center;
+}
+
+h3{
+    font-style: italic;
+    color:white;
+    width: 550px;
+    text-align: center;
+    margin: 20px auto;
+   
+}
+h2{
+    color:rgb(79, 74, 74);
+    text-decoration: underline;
+}
+body{
+    background-image: url("img.jpg");
+}
+form{
+    color:rgb(79, 74, 74);
+   
+}
+div{
+    
+    border: 10px solid rgb(30, 118, 30);
+    padding: 20px;
+    margin: 20px auto;
+    width:300px;
+    border-radius: 15px;
+    background-color: rgb(196, 235, 209);
+    box-shadow: 0 0 0 10px rgb(207, 207, 207); 
+  
+    
+}
+button, input{
+    color:rgb(35, 95, 151);
+    background-color: rgb(171, 237, 215);
+    border-radius: 8px;
+    border-color: beige;
+}

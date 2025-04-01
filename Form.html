@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Charity Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<h1>Philippine Eagle Foundation Charity Form</h1>
+<h3>By supporting this organization we can, contribute to saving the critically endangered Philippine Eagle(1), 
+  protect and restore rainforests(2), and even take part in securing a great future for both humans and animals alike(3).</h3>
+<div>
+  <h2>Sign up for the Campaign!</h2>
+
+    <form action="/action_page.php">
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required>
+      <br><br>
+
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" required>
+      <br><br>
+
+      <p>Sex:</p>
+      <input type="radio" id="male" name="sex" value="Male" required>
+      <label for="male">Male</label>
+      
+      <input type="radio" id="female" name="sex" value="Female" required>
+      <label for="female">Female</label>
+
+      <input type="radio" id="notsay" name="sex" value="notsay" required>
+      <label for="notsay">Prefer Not to Say</label>
+      <br><br>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+      <br><br>
+
+      <label for="contactnum">Contact Number:</label>
+      <input type="text" id="contactnum" name="contactnum">
+      <br><br>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+      </form>
+      
+</div>
+</body>
+</html>
